@@ -1,3 +1,6 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
+var awesome="This is awesome";
+
+$("#main").append(["Nemanja Kolar<br>"]);
+var fun = awesome.replace("awesome","fun fun");
+console.log(awesome);
+$("#main").append([fun]);
