@@ -1,6 +1,5 @@
-var awesome="This is awesome";
+var formattedName  = HTMLheaderName.replace("%data%","Nemanja Kolar");
+var formattedRole = HTMLheaderRole.replace("%data%","Puppy developer");
 
-$("#main").append(["Nemanja Kolar<br>"]);
-var fun = awesome.replace("awesome","fun fun");
-console.log(awesome);
-$("#main").append([fun]);
+$("#header").prepend(formattedName);
+$("#header").append(formattedRole);
